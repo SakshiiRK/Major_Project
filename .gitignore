@@ -1,0 +1,74 @@
+# =========================
+# 🔹 Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.env/
+env/
+
+# =========================
+# 🔹 Data (VERY IMPORTANT)
+# =========================
+data/raw/
+data/processed/
+data/*.csv
+data/*.txt
+
+# Keep folder but ignore contents
+!data/.gitkeep
+
+# =========================
+# 🔹 Models (Large files)
+# =========================
+models/
+*.pt
+*.pth
+*.bin
+*.h5
+*.ckpt
+
+# If using HuggingFace / Bloom
+*.json
+!models/config.json
+
+# =========================
+# 🔹 Logs & outputs
+# =========================
+logs/
+*.log
+outputs/
+results/
+
+# =========================
+# 🔹 Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# 🔹 OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🔹 IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 🔹 Streamlit
+# =========================
+.streamlit/
+
+# =========================
+# 🔹 Misc
+# =========================
+*.tmp
+*.bak
