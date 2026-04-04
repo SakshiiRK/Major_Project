@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 
 # Connect to MongoDB
-client = MongoClient("mongodb+srv://Sakshi12:admin123@finaldestination.xgrf41r.mongodb.net/?appName=FinalDestination")
+client = MongoClient("")
 db = client["lesson_app"]
 users = db["users"]
 
