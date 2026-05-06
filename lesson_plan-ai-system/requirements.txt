@@ -1,0 +1,7 @@
+transformers
+pandas
+scikit-learn
+numpy
+tqdm
+streamlit
+pymupdf
